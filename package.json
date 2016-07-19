@@ -1,0 +1,19 @@
+{
+  "name": "mongoose-date",
+  "version": "1.0.0",
+  "description": "",
+  "main": "date.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "chai": "^3.5.0",
+    "mongoose": "^4.5.5"
+  },
+  "author": "ROJO 2 <hola@rojo2.com> (http://rojo2.com)",
+  "license": "MIT"
+}
