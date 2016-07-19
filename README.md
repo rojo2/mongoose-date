@@ -13,7 +13,7 @@ const UserSchema = new Schema({
   }
 });
 
-UserSchema.plugin(dates);
+UserSchema.plugin(date);
 UserSchema.plugin(password);
 
 ```
