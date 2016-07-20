@@ -1,4 +1,5 @@
-# Mongoose Date plugin (https://travis-ci.org/rojo2/mongoose-date.svg?branch=master)
+# Mongoose Date plugin
+![Travis CI](https://travis-ci.org/rojo2/mongoose-date.svg?branch=master)
 
 ```javascript
 const date = require("rojo2-mongoose-date");
