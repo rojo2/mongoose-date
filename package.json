@@ -1,6 +1,6 @@
 {
   "name": "@rojo2/mongoose-date",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Mongoose Plugin that saves creation and modification dates",
   "main": "date.js",
   "directories": {
