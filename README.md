@@ -2,8 +2,8 @@
 ![Travis CI](https://travis-ci.org/rojo2/mongoose-date.svg?branch=master)
 
 ```javascript
-const date = require("rojo2-mongoose-date");
-const password = require("rojo2-mongoose-password");
+const date = require("@rojo2/mongoose-date");
+const password = require("@rojo2/mongoose-password");
 const {Schema} = require("mongoose");
 
 const UserSchema = new Schema({
