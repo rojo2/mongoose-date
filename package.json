@@ -1,13 +1,14 @@
 {
-  "name": "mongoose-date",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@rojo2/mongoose-date",
+  "version": "1.0.1",
+  "description": "Mongoose Plugin that saves creation and modification dates",
   "main": "date.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test:watch": "mocha --watch"
   },
   "devDependencies": {
     "mocha": "^2.5.3",
@@ -15,5 +16,17 @@
     "mongoose": "^4.5.5"
   },
   "author": "ROJO 2 <hola@rojo2.com> (http://rojo2.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rojo2/mongoose-date.git"
+  },
+  "keywords": [
+    "mongoose",
+    "date"
+  ],
+  "bugs": {
+    "url": "https://github.com/rojo2/mongoose-date/issues"
+  },
+  "homepage": "https://github.com/rojo2/mongoose-date#readme"
 }
