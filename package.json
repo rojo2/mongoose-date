@@ -1,19 +1,29 @@
 {
   "name": "@rojo2/mongoose-date",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Mongoose Plugin that saves creation and modification dates",
-  "main": "date.js",
+  "main": "dist/date.cjs.js",
+  "module": "dist/date.esm.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "mocha",
-    "test:watch": "mocha --watch"
+    "build": "rollup -c",
+    "test": "mocha --require babel-core/register",
+    "test:watch": "mocha --watch --require babel-core/register"
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
-    "mocha": "^2.5.3",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
     "chai": "^3.5.0",
-    "mongoose": "^4.5.5"
+    "mocha": "^2.5.3",
+    "mongoose": "^4.5.5",
+    "rollup": "^0.59.0",
+    "rollup-plugin-babel": "^3.0.4"
   },
   "author": "ROJO 2 <hola@rojo2.com> (http://rojo2.com)",
   "license": "MIT",
